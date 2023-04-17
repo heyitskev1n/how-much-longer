@@ -27,7 +27,7 @@ jobs:
       # Setup node + npm
       - uses: actions/setup-node@v3
         with:
-          node-version: 'lts'
+          node-version: '18'
 
       # Runs a single command using the runners shell
       - name: Install yarn
